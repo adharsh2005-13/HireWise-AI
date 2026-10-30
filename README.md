@@ -273,7 +273,6 @@ hirewise-ai/
 ├── .env.example                 # Environment configuration template
 ├── .gitignore                   # Standard Git ignore rules
 ├── docker-compose.yml           # Full-stack container orchestration
-├── presentation_and_interview_guide.md # Presentation script & Q&A guide
 ├── README.md                    # Main project documentation
 └── TESTING_README.md            # In-depth test suite documentation
 ```
