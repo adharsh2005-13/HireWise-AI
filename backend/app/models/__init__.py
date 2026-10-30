@@ -1,0 +1,43 @@
+from app.models.all_models import (
+    Base,
+    User,
+    UserRole,
+    ApplicationStatus,
+    CandidateProfile,
+    RecruiterProfile,
+    Resume,
+    ExtractedResumeSkill,
+    Job,
+    JobRequiredSkill,
+    JobApplication,
+    MatchResult,
+    InterviewSession,
+    InterviewQuestion,
+    LearningResource,
+    ChatSession,
+    ChatMessage,
+    DocumentChunk,
+    AuditLog
+)
+
+__all__ = [
+    "Base",
+    "User",
+    "UserRole",
+    "ApplicationStatus",
+    "CandidateProfile",
+    "RecruiterProfile",
+    "Resume",
+    "ExtractedResumeSkill",
+    "Job",
+    "JobRequiredSkill",
+    "JobApplication",
+    "MatchResult",
+    "InterviewSession",
+    "InterviewQuestion",
+    "LearningResource",
+    "ChatSession",
+    "ChatMessage",
+    "DocumentChunk",
+    "AuditLog"
+]
